@@ -9,6 +9,8 @@ app.get("/welcome", (req, res) => {
     res.json({"message": "Welcome to CI/CD pipeline"})
 })
 
-
+app.get("/name", (req, res) => {
+    res.json({"message": "Hello to CI/CD pipeline"})
+})
 
 module.exports = app;
